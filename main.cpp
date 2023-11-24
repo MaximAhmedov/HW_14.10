@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include "Trie.h"
 #include "Functions.h"
 
@@ -79,12 +79,12 @@ int main() {
             std::cout << '\n';
         }
         if (!stroka.empty()) {
-            std::cout << "Âûáåðèòå íîìåð ñëîâà äëÿ åãî äîáàâëåíèÿ â âàøå ñîîáùåíèå, íàæìèòå Enter äëÿ çàâåðøåíèÿ ðàáîòû.\n";
+            std::cout << "Ð’Ñ‹Ð±ÐµÑ€Ð¸Ñ‚Ðµ Ð½Ð¾Ð¼ÐµÑ€ ÑÐ»Ð¾Ð²Ð° Ð´Ð»Ñ ÐµÐ³Ð¾ Ð´Ð¾Ð±Ð°Ð²Ð»ÐµÐ½Ð¸Ñ Ð² Ð²Ð°ÑˆÐµ ÑÐ¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ, Ð½Ð°Ð¶Ð¼Ð¸Ñ‚Ðµ Enter Ð´Ð»Ñ Ð·Ð°Ð²ÐµÑ€ÑˆÐµÐ½Ð¸Ñ Ñ€Ð°Ð±Ð¾Ñ‚Ñ‹.\n";
             std::cout << stroka << '\n';
         }
         posSpc = strokaFinal.length() + ind;
     }
     system("cls");
-    std::cout << "Âàøå ñîîáùåíèå:\n\t" << strokaFinal << '\n';
+    std::cout << "Ð’Ð°ÑˆÐµ ÑÐ¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ:\n\t" << strokaFinal << '\n';
 	return 0;
 }
